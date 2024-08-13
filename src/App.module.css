@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: 'Roboto' , sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.footer {
+	height: 32px;
+	background: rgba(79, 79, 79, 1);
+}

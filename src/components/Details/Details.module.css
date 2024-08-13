@@ -1,0 +1,52 @@
+.root {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	width: calc(100% / 3);
+	height: calc(100vh - 80px - 32px);
+	padding: 24px;
+	box-sizing: border-box;
+	background: rgba(242, 242, 242, 1);
+}
+
+.name {
+	font-size: 32px;
+	line-height: 40px;
+	margin-bottom: 16px;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 16px;
+}
+
+.stargazers {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.number {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.chip {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 8px;
+	row-gap: 8px;
+	margin-bottom: 24px;
+}
+
+.placeholder {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: calc(100vh - 80px - 32px);
+	background: rgba(242, 242, 242, 1);
+	font-size: 14px;
+	line-height: 20px;
+}
